@@ -1,3 +1,6 @@
+# Ignore secret strings (GH ACCES TOKEN)
+secrets.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
