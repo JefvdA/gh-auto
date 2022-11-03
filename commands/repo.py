@@ -3,7 +3,7 @@ import typer
 import requests
 from pathlib import Path
 
-from secrets import ACCESS_TOKEN
+import helpers.authentication as authentication
 
 BASE_URI = "https://api.github.com"
 
@@ -27,7 +27,7 @@ def create(
         "gitignore_template": ignore_template.lower().capitalize()
     }
     headers = {
-        "Authorization": f"token {ACCESS_TOKEN}",
+        "Authorization": f"token {authentication.get_token()}",
         "Accept": "application/vnd.github+json"
     }
     print("Creating repository...")
