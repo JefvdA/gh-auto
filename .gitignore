@@ -1,5 +1,4 @@
 # Ignore secret strings (GH ACCES TOKEN)
-secrets.py
 secrets.json
 
 # Byte-compiled / optimized / DLL files
