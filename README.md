@@ -6,6 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/JefvdA/gh-auto)](https://github.com/JefvdA/gh-auto/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/JefvdA/gh-auto)](https://github.com/JefvdA/gh-auto/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/JefvdA/gh-auto)](https://github.com/JefvdA/gh-auto/graphs/contributors)
+[![PyPI](https://img.shields.io/pypi/v/cli-gh-auto)](https://pypi.org/project/cli-gh-auto/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/JefvdA/gh-auto)](https://github.com/JefvdA/gh-auto/releases)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/JefvdA/gh-auto/blob/main/LICENCE.md)
 ## Installation
