@@ -13,7 +13,13 @@
 Install gh-auto with PyPi
 
 ```
-Coming soon!
+pip install cli-gh-auto
+```
+
+And your set, now you can use gh-auto in your terminal.
+Don't know where to start? Try the help command:
+```
+gh-auto --help
 ```
     
 ## Authentication
