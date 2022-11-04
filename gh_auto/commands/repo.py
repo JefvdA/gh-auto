@@ -3,7 +3,7 @@ import typer
 import requests
 from pathlib import Path
 
-import helpers.authentication as authentication
+import gh_auto.helpers.authentication as authentication
 
 BASE_URI = "https://api.github.com"
 
