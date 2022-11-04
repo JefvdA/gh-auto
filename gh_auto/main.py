@@ -10,11 +10,11 @@ Better then 'gh' because this script also automates the process managing the loc
 
 import typer
 
-import commands.repo
+import gh_auto.commands.repo as repo
 
 
 app = typer.Typer()
-app.add_typer(commands.repo.app, name="repo")
+app.add_typer(repo.app, name="repo")
 
 
 if __name__ == "__main__":
